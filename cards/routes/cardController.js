@@ -51,8 +51,19 @@ router.post("/", auth, async (req, res) => {
     }
 
     const card = await createCard({ ...req.body, user_id: userId });
-    console.log(card);
-    return res.status(201).send(card);
+
+     const responseCard = {
+      title: card.title,
+      subtitle: card.subtitle,
+      description: card.description,
+      phone: card.phone,
+      email: card.email,
+      web: card.web,
+      image: card.image,
+      address: card.address
+    };
+
+    return res.status(201).send(responseCard);
   } catch (error) {
     return handleError(res, error.status || 500, error.message);
   }

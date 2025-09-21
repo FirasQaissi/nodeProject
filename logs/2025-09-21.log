@@ -3,3 +3,7 @@
 [2025-09-21T09:57:55.271Z] 403 - Forbidden - GET /users/12
 [2025-09-21T09:58:17.682Z] 403 - Forbidden - GET /users/123453gdfg
 [2025-09-21T10:00:58.899Z] 404 - Not Found - GET /not-exiiiiiiiiiiit
+[2025-09-21T10:35:30.912Z] 500 - Internal Server Error - POST /cards/
+[2025-09-21T10:35:45.099Z] 500 - Internal Server Error - POST /cards/
+[2025-09-21T10:36:31.806Z] 400 - Bad Request - POST /cards/
+[2025-09-21T10:36:51.524Z] 400 - Bad Request - POST /cards/
