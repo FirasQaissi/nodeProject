@@ -136,3 +136,11 @@ MIT
 ## 💡 Need Help?
 
 Open an issue or contact the maintainer for support(Firas Qaissi - Qaissi0003@gmail.com).
+
+---
+
+## 🗂️ Logging
+
+- All HTTP requests and errors are logged using **Morgan** and **Chalk** for clear, color-coded output in the console.
+- **Error Logging:** Any error encountered by the API is automatically recorded in a dedicated log file (`logs/error.log`). This includes validation errors, authentication failures, and server issues.
+- Log files help with debugging and provide a reliable audit trail for monitoring application health.
