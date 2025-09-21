@@ -135,4 +135,4 @@ MIT
 
 ## 💡 Need Help?
 
-Open an issue or contact the maintainer for support.
+Open an issue or contact the maintainer for support(Firas Qaissi - Qaissi0003@gmail.com).
