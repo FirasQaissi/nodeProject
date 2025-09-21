@@ -1,0 +1,4 @@
+[2025-09-21T09:57:42.836Z] 404 - Not Found - GET /not-exist
+[2025-09-21T09:57:42.958Z] 404 - Not Found - GET /favicon.ico
+[2025-09-21T09:57:55.271Z] 403 - Forbidden - GET /users/12
+[2025-09-21T09:58:17.682Z] 403 - Forbidden - GET /users/123453gdfg

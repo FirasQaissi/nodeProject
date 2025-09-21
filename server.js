@@ -7,6 +7,7 @@ const  {handleError}  = require("./utils/errorHandler");
 const logger = require("./logger/loggerService");
 const chalk = require("chalk");
 const connectToDb = require("./DB/dbService");
+const {errorFileLogger} = require("./logger/loggers/errorFileLogger");
 
 //const { connect } = require("mongoose");
 const config = require("config");
@@ -18,6 +19,10 @@ app.use(logger)
 app.use(express.json());
 app.use(express.text());
 app.use(express.static("./public"));
+
+//Error file logger middleware
+app.use(errorFileLogger);
+
 app.use(router);
 
 // Error Handler Middleware
