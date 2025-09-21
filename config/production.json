@@ -1,0 +1,10 @@
+{
+    "NODE_ENV": "production",
+    "PORT": 9191,
+    "TOKEN_GENERATOR": "jwt",
+    "DB_NAME":"qaissi0003",
+    "DB_PASSWORD":"Comsign1",
+    "LOGGER":"morgan",
+    "DB":"MONGODB"
+    
+}
